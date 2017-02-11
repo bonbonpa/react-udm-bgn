@@ -52,4 +52,23 @@ A : It is a bit of JSX code that consists of logic and HTML and can be reused mu
 13. Explaining Props 
 Props 
 14. Explaining Prop Types
-15. 
+15. Explaining Component Sate 
+ super() call constructor by parent class when starting 
+```jsx
+export default class App extends React.Component{ //create class inheriten from react component
+    constructor(props){  //<<<<< constructor เริ่มต้นทำงาน เมื่อ App ถูกสร้าง 
+        super(props)    //<<< super <<< เรียกใช้ Constructor ของคลาสแม่
+        this.state = { 
+            counter : 0,
+        };
+    }
+    //this.state.counter => ค่าจาก constructor 
+    render(){
+        return (
+            <div>
+                {this.state.counter}  
+                <Button name={'Add 1'} clicked={() => this.state.counter++}/>
+            </div>
+        );
+    }
+```
