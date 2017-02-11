@@ -3,12 +3,9 @@ import ReactDOM from 'react-dom';
 
 import App ,{ AppDecription } from './components/app'; //{} is Destructuring
 
-const randomObject = { Maha : '10'  , Art : '20'};
-const { Maha }  = randomObject; //access to Object value 
-//out 10
 
-console.log(AppDecription);
-console.log(Maha);
+console.log(AppDecription); //Destructuring from app.js => export const AppDecription = "App says Hii";
+
 
 ReactDOM.render(<App/> , document.querySelector('.container'));
 
