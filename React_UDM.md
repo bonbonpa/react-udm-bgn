@@ -32,3 +32,18 @@ bundle.js => is create complie for one file combine
 
 11. Using defaults and Understanding Destructuring
 12. React Component
+
+Quiz 
+Question 1:
+Q : What is the vitual DOM
+A : It is React's own DOM used to differentiate changes with the Physical DOM
+Question 2:
+Q : What is the right way to 'instantite' a classless functional component called App
+A : <App/>
+Question 3:
+Q : What is the equivalent of this
+``` const { age } = person ```
+A : ``` const age = person.age ```
+Question 4:
+Q : What is a React Component?
+A : It is a bit of JSX code that consists of logic and HTML and can be reused multiple
