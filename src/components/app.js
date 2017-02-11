@@ -1,9 +1,13 @@
 import React from 'react';
 
+function printToConsole(){
+    console.log("Button Click");
+}
+
 //() => fat arrow function set up by es6 , function(){}
 const App = () => ( 
   <div>
-    HI 
+    <button onClick={printToConsole}>Click Me!</button>
   </div>
 );
 
