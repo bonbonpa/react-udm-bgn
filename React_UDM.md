@@ -50,4 +50,5 @@ Q : What is a React Component?
 A : It is a bit of JSX code that consists of logic and HTML and can be reused multiple
 
 13. Explaining Props 
-Props => 
+Props 
+14. Explaining Prop Types
