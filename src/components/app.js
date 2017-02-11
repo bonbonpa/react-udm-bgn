@@ -1,10 +1,11 @@
 import React from 'react';
-
+import Button from './button';
 
 //() => fat arrow function set up by es6 , function(){}
 const App = () => ( 
   <div>
-    <button onClick={() => console.log("Button Click")}>Click Me!</button>
+    <Button/>
+    <Button/>
   </div>
 );
 
