@@ -1,12 +1,12 @@
-import React from 'react';
+import React , { Component } from 'react';
 import Button from './button';
 
-//() => fat arrow function set up by es6 , function(){}
-const App = () => ( 
-  <div>
-    <Button name={'Click'} clicked={() => console.log('Clicked')}/>
-    <Button name={'Search'} />
-  </div>
-);
-
-export default App;
+export default class App extends React.Component{ //create class inheriten from react component
+    render(){
+        return (
+            <div>
+                <Button name={'Add 1'} clicked={() => console.log("Clicked")}/>
+            </div>
+        );
+    }
+}
