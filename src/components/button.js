@@ -1,7 +1,8 @@
 import React from 'react';
 
-const Button = () => (
-    <button>Click Me!</button>
-);
+const Button = (props) => {
+    console.log('props', props);
+  return ( <button>{props.name}</button> );
+};
 
-export default Button;
+export default Button

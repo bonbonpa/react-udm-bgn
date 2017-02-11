@@ -1,4 +1,4 @@
-# React Course
+# Learn React : The World's Most Lucrative JavaScript Library 
 
 ## Section 0
 1. Intro and course overview
@@ -6,7 +6,8 @@
 
 ## Section 1 : Set up
 
-3. Setting Atom Editor
+3. Setting Atom Edito
+
 4. Github Setup
 5. Setting up folder locally
 6. Folder Structure overview
@@ -47,3 +48,6 @@ A : ``` const age = person.age ```
 Question 4:
 Q : What is a React Component?
 A : It is a bit of JSX code that consists of logic and HTML and can be reused multiple
+
+13. Explaining Props 
+Props => 
