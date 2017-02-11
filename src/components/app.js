@@ -13,9 +13,9 @@ export default class App extends React.Component{ //create class inheriten from 
         return (
             <div>
                 {this.state.counter}  
-                <Button name={'Add 1'} clicked={() => this.state.counter++}/>
+                <Button name={'Add 1'} clicked={() => this.setState({counter : this.state.counter + 1 })}/>
             </div>
         );
-        //it done increse state <<<<<<<<
+        //setState <<<
     }
 }
