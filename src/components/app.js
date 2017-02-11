@@ -8,5 +8,5 @@ const App = () => (
 );
 
 //console.log( <App/>)
-
+export const AppDecription = "App says Hii";
 export default App;
