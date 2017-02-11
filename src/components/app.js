@@ -7,10 +7,10 @@ function printToConsole(){
 //() => fat arrow function set up by es6 , function(){}
 const App = () => ( 
   <div>
-    <button onClick={printToConsole}>Click Me!</button>
+    <button onClick={() => console.log("Button Click")}>Click Me!</button>
   </div>
 );
 
 //console.log( <App/>)
-export const AppDecription = "App says Hii";
+//export const AppDecription = "App says Hii";
 export default App;
